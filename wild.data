@@ -1,0 +1,10 @@
+classes= 4
+train  = /data/Great/Desktop/darknet-yolov4/darknet/wild_train/train.txt
+valid  = /data/Great/Desktop/darknet-yolov4/darknet/Test/train_test.txt
+#valid = data/coco_val_5k.list
+names = /data/Great/Desktop/darknet-yolov4/darknet/cfg/wild.names
+backup = /data/Great/Desktop/darknet-yolov4/darknet/backup/
+eval=valid
+valid=train.txt
+eval=coco
+
